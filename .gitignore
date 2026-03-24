@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+
+# Fotos en root (ya están en public/equipo/)
+foto1.jpeg
+foto2.jpeg
+
+# Archivos de trabajo que no son parte del sitio
+WhatsApp Image*.jpeg
+peek_pdf.js
+
+*.DS_Store
