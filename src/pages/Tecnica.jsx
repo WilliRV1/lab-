@@ -23,7 +23,7 @@ const Tecnica = () => {
                 Rigor <span className="text-primary italic">Académico</span>, Precisión Digital
               </h1>
               <p className="text-xl text-slate-400 mb-10 leading-relaxed font-medium">
-                No solo fabricamos piezas; aplicamos ciencia odontológica en cada restauración. Nuestro enfoque combina la docencia universitaria con la tecnología Lead Dental.
+                No solo fabricamos piezas; aplicamos ciencia odontológica en cada restauración. Nuestro enfoque combina la docencia universitaria con la tecnología Leaf Dental.
               </p>
             </div>
           </div>

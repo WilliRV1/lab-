@@ -43,7 +43,7 @@ const Servicios = () => {
     },
     {
       title: "SERVICIOS DIGITALES",
-      desc: "Integración Lead Dental.",
+      desc: "Integración Leaf Dental.",
       items: [
         { name: "Escaneo Digital", price: "150.000", icon: "center_focus_strong" },
         { name: "Modelos 3D (Z/D)", price: "40.000", icon: "layers" },
@@ -82,10 +82,10 @@ const Servicios = () => {
             Transparencia y excelencia en cada pieza. Descubra nuestras líneas de rehabilitación oral.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
-             <a href="https://wa.me/570000000000" className="btn-primary px-10">
+             <a href="https://wa.me/573106372455" className="btn-primary px-10">
                 Iniciar un Pedido
              </a>
-             <a href="/public/prices.pdf" className="inline-flex items-center gap-2 text-white font-bold hover:text-primary transition-colors border-b border-white/20 pb-1" download>
+             <a href="/prices.pdf" className="inline-flex items-center gap-2 text-white font-bold hover:text-primary transition-colors border-b border-white/20 pb-1" download>
                <span className="material-symbols-outlined">download</span>
                Descargar Tarifario (PDF)
              </a>
@@ -138,7 +138,7 @@ const Servicios = () => {
                    Nuestro equipo de especialistas le ayudará a elegir el material y flujo de trabajo idóneo para su paciente.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6">
-                   <a href="https://wa.me/570000000000" className="bg-white text-primary px-12 py-5 rounded-2xl font-black text-lg hover:scale-105 transition-all shadow-2xl">
+                   <a href="https://wa.me/573106372455" className="bg-white text-primary px-12 py-5 rounded-2xl font-black text-lg hover:scale-105 transition-all shadow-2xl">
                      Hablar con un Especialista
                    </a>
                    <a href="mailto:lab@cpsmile.com" className="bg-primary-dark/30 border border-white/20 text-white px-12 py-5 rounded-2xl font-black text-lg hover:bg-primary-dark/50 transition-all">

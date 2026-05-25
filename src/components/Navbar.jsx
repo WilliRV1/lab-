@@ -18,14 +18,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-24 items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <div className="flex flex-col">
-              <span className="text-lg font-extrabold leading-none tracking-tight text-slate-800 uppercase">
-                C&P <span className="text-primary">Smile</span>
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.2em] text-muted font-semibold">Laboratory</span>
-            </div>
+            <img src="/logo-cp-smile-lab.svg" alt="C&P Smile Lab Logo" className="h-18 w-auto" />
           </Link>
           
           <nav className="hidden md:flex items-center gap-8">

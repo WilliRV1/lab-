@@ -8,12 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="flex flex-col">
-                <span className="text-lg font-bold text-slate-900 leading-none uppercase">
-                  C&P <span className="text-primary">Smile</span>
-                </span>
-                <span className="text-[10px] text-muted font-semibold uppercase tracking-wider">Laboratory</span>
-              </div>
+              <img src="/logo-cp-smile-lab.svg" alt="C&P Smile Lab Logo" className="h-10 w-auto" />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Líderes en prótesis dentales con certificación académica. Excelencia técnica y tecnología 3D de vanguardia.
@@ -33,11 +28,11 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-slate-400">
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-muted text-xl">location_on</span>
-                <span>Av. Academia de Salud 123,<br/>Cali, Colombia</span>
+                <span>Cl. 52 Nte. #2 DN 05,<br/>La Merced, Cali</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-muted text-xl">call</span>
-                <span>+57 (300) 000 0000</span>
+                <span>+57 310 637 2455</span>
               </li>
             </ul>
           </div>
@@ -60,7 +55,7 @@ const Footer = () => {
       </div>
 
       {/* WhatsApp Float */}
-      <a href="https://wa.me/570000000000" className="whatsapp-float" target="_blank" rel="noopener noreferrer">
+      <a href="https://wa.me/573106372455" className="whatsapp-float" target="_blank" rel="noopener noreferrer">
         <span className="material-symbols-outlined">chat_bubble</span>
       </a>
     </footer>

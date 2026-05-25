@@ -30,14 +30,14 @@ const Laboratory = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                 </span>
-                Innovación Lead Dental
+                Alianza Tecnológica Leaf Dental
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-slate-900 leading-[0.95] tracking-tight">
                 Un futuro con <br/>
                 <span className="text-primary">restauraciones</span> digitales
               </h1>
               <p className="text-xl text-slate-600 max-w-xl leading-relaxed font-medium">
-                Precisión milimétrica, respaldo académico y entregas en 24 horas. Transformamos flujos de trabajo en soluciones estéticas definitivas.
+                Precisión digital milimétrica bajo nuestra alianza tecnológica con Leaf Dental. Combinamos rigor académico, maquinaria de última generación y entregas en 24 horas para soluciones definitivas.
               </p>
               <div className="flex flex-col sm:flex-row gap-5">
                 <Link to="/servicios" className="btn-primary px-10 py-5 text-lg group">
@@ -64,23 +64,31 @@ const Laboratory = () => {
             
             <div className="mt-20 lg:mt-0 lg:col-span-5 relative fade-in">
               <div className="relative group">
-                <div className="absolute -inset-4 bg-gradient-to-tr from-primary to-accent opacity-10 rounded-[2.5rem] blur-2xl group-hover:opacity-20 transition-opacity duration-500"></div>
-                <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] bg-slate-100">
-                  <div className="w-full h-full bg-gradient-to-br from-slate-50 to-slate-200 flex items-center justify-center">
-                     <span className="material-symbols-outlined text-[10rem] text-primary/10">biotech</span>
+                <div className="absolute -inset-4 bg-gradient-to-tr from-primary to-accent opacity-15 rounded-[2.5rem] blur-2xl group-hover:opacity-25 transition-opacity duration-500"></div>
+                <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 aspect-[4/3] bg-gradient-to-br from-slate-50 to-white flex flex-col items-center justify-center p-8">
+                  <div className="flex items-center justify-center gap-6 w-full max-w-sm mb-12">
+                    <div className="flex-1 flex items-center justify-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 h-24">
+                      <img
+                        src="/logo-cp-smile-lab.svg"
+                        alt="Logo C&P Smile Lab"
+                        className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-700"
+                      />
+                    </div>
+                    <span className="material-symbols-outlined text-primary/40 text-3xl font-black">handshake</span>
+                    <div className="flex-1 flex items-center justify-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 h-24">
+                      <img
+                        src="/logo-leaf-dental.png"
+                        alt="Logo Leaf Dental"
+                        className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-700"
+                      />
+                    </div>
                   </div>
-                </div>
-                
-                {/* Floating status card */}
-                <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-2xl border border-slate-100 animate-bounce-slow">
-                  <div className="flex items-center gap-4">
-                    <div className="size-12 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg shadow-green-500/30">
-                      <span className="material-symbols-outlined">schedule</span>
-                    </div>
-                    <div>
-                      <p className="text-xl font-black text-slate-900 leading-none mb-1">24H</p>
-                      <p className="text-[10px] text-muted font-bold uppercase tracking-widest">Turnaround Time</p>
-                    </div>
+                  {/* Premium overlay text box at the bottom */}
+                  <div className="absolute bottom-4 left-4 right-4 bg-slate-900 backdrop-blur-md rounded-xl p-4 border border-slate-800 shadow-lg">
+                    <p className="text-[10px] font-black uppercase tracking-widest text-accent mb-0.5">Alianza Estratégica</p>
+                    <p className="text-xs font-bold text-white leading-normal">
+                      C&P Smile Laboratory & Leaf Dental: Maquinaria digital de alta precisión
+                    </p>
                   </div>
                 </div>
               </div>
@@ -111,6 +119,73 @@ const Laboratory = () => {
                </div>
             </div>
          </div>
+      </section>
+
+      {/* ═══════════════════ ALIANZA ESTRATÉGICA & MAQUINARIA DE CALIDAD ═══════════════════ */}
+      <section className="py-24 bg-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div className="lg:col-span-5 fade-in">
+              <span className="section-label">Alianza Exclusiva</span>
+              <h2 className="text-4xl lg:text-5xl font-black text-slate-900 leading-tight uppercase mb-6">
+                C&P Smile <br/>
+                <span className="text-primary italic">& Leaf Dental</span>
+              </h2>
+              <div className="space-y-6 text-slate-600 font-medium text-lg leading-relaxed">
+                <p>
+                  En <span className="font-bold text-slate-900">C&P Smile Laboratory</span>, nos asociamos con los mejores. Nuestra alianza estratégica con <span className="font-bold text-slate-900">Leaf Dental</span> nos permite equipar nuestro laboratorio con tecnología digital de punta a nivel global.
+                </p>
+                <p className="text-base text-slate-500">
+                  Gracias a esta sinergia, importamos y adaptamos directamente sistemas CAD/CAM y equipos de sinterizado/impresión dental de máxima gama. Esto garantiza a odontólogos y pacientes piezas de precisión milimétrica y una durabilidad insuperable.
+                </p>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6 fade-in">
+              <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="size-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6">
+                  <span className="material-symbols-outlined text-2xl">precision_manufacturing</span>
+                </div>
+                <h4 className="text-lg font-black text-slate-900 uppercase mb-2">Maquinaria de Alta Gama</h4>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                  Fresadoras de 5 ejes Roland y sistemas de sinterizado SEED de última generación para una exactitud sin precedentes.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="size-12 bg-accent/10 rounded-2xl flex items-center justify-center text-accent mb-6">
+                  <span className="material-symbols-outlined text-2xl">workspace_premium</span>
+                </div>
+                <h4 className="text-lg font-black text-slate-900 uppercase mb-2">Insumos Certificados</h4>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                  Utilizamos exclusivamente bloques de zirconio y disilicatos premium respaldados directamente por la red Leaf Dental.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="size-12 bg-slate-900/10 rounded-2xl flex items-center justify-center text-slate-900 mb-6">
+                  <span className="material-symbols-outlined text-2xl">verified</span>
+                </div>
+                <h4 className="text-lg font-black text-slate-900 uppercase mb-2">Garantía Directa</h4>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                  El soporte técnico y la calibración constante de los equipos por parte de Leaf Dental aseguran la regularidad perfecta en cada restauración.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="size-12 bg-green-500/10 rounded-2xl flex items-center justify-center text-green-600 mb-6">
+                  <span className="material-symbols-outlined text-2xl">bolt</span>
+                </div>
+                <h4 className="text-lg font-black text-slate-900 uppercase mb-2">Eficiencia Extrema</h4>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                  Flujos de trabajo 100% integrados que nos permiten entregar prótesis sobre implantes y coronas unitarias en tiempo récord de 24 horas.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </section>
 
       {/* ═══════════════════ FEATURED SERVICES ═══════════════════ */}
@@ -301,13 +376,12 @@ const Laboratory = () => {
               <div className="aspect-[3/4] overflow-hidden bg-slate-200">
                 <img
                   src="/equipo/foto1.jpeg"
-                  alt="Técnica de Laboratorio Dental"
+                  alt="Alison Armero - Técnica de Laboratorio Dental"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
               <div className="p-6">
-                <p className="text-xs uppercase tracking-widest font-bold text-muted mb-1">Próximamente</p>
-                <h3 className="text-xl font-black text-slate-900 mb-1">[Nombre — próximamente]</h3>
+                <h3 className="text-xl font-black text-slate-900 mb-1">Alison Armero</h3>
                 <p className="text-primary font-bold text-sm">Técnica de Laboratorio Dental</p>
               </div>
             </div>
@@ -316,13 +390,12 @@ const Laboratory = () => {
               <div className="aspect-[3/4] overflow-hidden bg-slate-200">
                 <img
                   src="/equipo/foto2.jpeg"
-                  alt="Técnica de Laboratorio Dental"
+                  alt="Yuliana Quiñonez - Técnica de Laboratorio Dental"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
               <div className="p-6">
-                <p className="text-xs uppercase tracking-widest font-bold text-muted mb-1">Próximamente</p>
-                <h3 className="text-xl font-black text-slate-900 mb-1">[Nombre — próximamente]</h3>
+                <h3 className="text-xl font-black text-slate-900 mb-1">Yuliana Quiñonez</h3>
                 <p className="text-primary font-bold text-sm">Técnica de Laboratorio Dental</p>
               </div>
             </div>
@@ -341,7 +414,7 @@ const Laboratory = () => {
              Sea parte de la red de especialistas que confían su flujo digital a C&P Lab. Calidad académica, eficiencia digital.
            </p>
            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="https://wa.me/570000000000" className="btn-primary py-6 flex flex-col gap-1 group shadow-primary/20">
+              <a href="https://wa.me/573106372455" className="btn-primary py-6 flex flex-col gap-1 group shadow-primary/20">
                 <span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">chat_bubble</span>
                 <span className="uppercase text-[10px] tracking-widest font-bold">WhatsApp Business</span>
               </a>

@@ -23,13 +23,13 @@ const Contacto = () => {
               </p>
               
               <div className="space-y-8">
-                <a href="https://wa.me/570000000000" className="flex items-center gap-6 group">
+                <a href="https://wa.me/573106372455" className="flex items-center gap-6 group">
                   <div className="size-16 bg-green-500 rounded-2xl flex items-center justify-center text-white text-3xl group-hover:scale-110 transition-transform shadow-lg shadow-green-500/20">
                     <span className="material-symbols-outlined">chat_bubble</span>
                   </div>
                   <div>
                     <h3 className="text-sm font-black uppercase tracking-widest text-slate-900">WhatsApp Business</h3>
-                    <p className="text-xl font-bold text-slate-600">+57 (300) 000 0000</p>
+                    <p className="text-xl font-bold text-slate-600">+57 310 637 2455</p>
                   </div>
                 </a>
                 <a href="mailto:lab@cpsmile.com" className="flex items-center gap-6 group">
