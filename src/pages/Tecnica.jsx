@@ -18,7 +18,7 @@ const Tecnica = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left">
           <div className="lg:grid lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in">
-              <span className="section-label text-accent">Metodología C&P</span>
+              <span className="section-label text-accent">Proceso C&P</span>
               <h1 className="text-4xl lg:text-6xl font-black mb-8 leading-tight tracking-tight uppercase">
                 Rigor <span className="text-primary italic">Académico</span>, Precisión Digital
               </h1>
@@ -35,10 +35,12 @@ const Tecnica = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="fade-in">
-              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-slate-100 aspect-square">
-                 <div className="w-full h-full bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center">
-                    <span className="material-symbols-outlined text-[12rem] text-primary/10">biotech</span>
-                 </div>
+              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-slate-100 aspect-square group">
+                <img 
+                  src="/proceso.png" 
+                  alt="Proceso de Caracterización y Diseño Dental Digital C&P" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
             </div>
             <div className="space-y-12 fade-in">
