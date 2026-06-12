@@ -207,19 +207,26 @@ const Laboratory = () => {
               { title: "ZirconioLine", desc: "Zirconio translúcido fresado con tecnología alemana para máxima resistencia y estética.", color: "primary", icon: "diamond" },
               { title: "CeramicaLine", desc: "Disilicatos inyectados y carillas ultradelgadas con caracterización artesanal superior.", color: "accent", icon: "brush" },
               { title: "3D Digital Line", desc: "Escaneos intraorales, modelos 3D y guías quirúrgicas integradas en flujo digital.", color: "slate-900", icon: "view_in_ar" }
-            ].map((s, idx) => (
-              <div key={idx} className="bg-white rounded-[2.5rem] p-10 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group fade-in">
-                <div className={`size-20 rounded-2xl bg-${s.color}/10 flex items-center justify-center text-${s.color} mb-10 group-hover:scale-110 transition-transform duration-500`}>
-                  <span className="material-symbols-outlined text-4xl">{s.icon}</span>
+            ].map((s, idx) => {
+              const colorStyles = {
+                primary: "bg-primary/10 text-primary",
+                accent: "bg-accent/10 text-accent",
+                "slate-900": "bg-slate-900/10 text-slate-900"
+              };
+              return (
+                <div key={idx} className="bg-white rounded-[2.5rem] p-10 border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group fade-in">
+                  <div className={`size-20 rounded-2xl flex items-center justify-center mb-10 group-hover:scale-110 transition-transform duration-500 ${colorStyles[s.color]}`}>
+                    <span className="material-symbols-outlined text-4xl">{s.icon}</span>
+                  </div>
+                  <h3 className="text-2xl font-black text-slate-900 mb-6 uppercase tracking-tight">{s.title}</h3>
+                  <p className="text-slate-500 leading-relaxed mb-8">{s.desc}</p>
+                  <Link to="/servicios" className="inline-flex items-center text-primary font-black uppercase text-xs tracking-widest hover:gap-3 transition-all">
+                    Detalles y Precios
+                    <span className="material-symbols-outlined text-lg">arrow_forward</span>
+                  </Link>
                 </div>
-                <h3 className="text-2xl font-black text-slate-900 mb-6 uppercase tracking-tight">{s.title}</h3>
-                <p className="text-slate-500 leading-relaxed mb-8">{s.desc}</p>
-                <Link to="/servicios" className="inline-flex items-center text-primary font-black uppercase text-xs tracking-widest hover:gap-3 transition-all">
-                  Detalles y Precios
-                  <span className="material-symbols-outlined text-lg">arrow_forward</span>
-                </Link>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

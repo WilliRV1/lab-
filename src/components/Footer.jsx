@@ -47,7 +47,8 @@ const Footer = () => {
         </div>
         <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-400">© {new Date().getFullYear()} C&P Smile Laboratory. Todos los derechos reservados.</p>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
+            <a className="text-xs font-bold text-primary hover:text-primary-dark transition-colors uppercase tracking-widest" href="https://cypsmile.online" target="_blank" rel="noopener noreferrer">Clínica Dental</a>
             <a className="text-slate-400 hover:text-primary transition-colors" href="#"><span className="material-symbols-outlined">share</span></a>
             <a className="text-slate-400 hover:text-primary transition-colors" href="#"><span className="material-symbols-outlined">public</span></a>
           </div>
